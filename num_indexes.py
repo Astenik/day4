@@ -4,6 +4,8 @@ def num_index(lst, num):
         '''this function findes the firs and last indexes 
         of num in lst list, if num is not in list function returns 
         [-1, -1].'''
+        if (lst[-1] < num) or (lst[0] > num):
+                return [-1, -1]
         res = []
         ind = 0
         while lst[ind] <= num:
