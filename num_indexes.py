@@ -15,7 +15,7 @@ def num_index(lst, num):
                      break 
                ind += 1
         else:
-             res = [-1, -1]
+             return [-1, -1]
         if res[0] == (len(lst) - 1):
                 res.append(res[0])
         else:
